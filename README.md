@@ -15,7 +15,7 @@ Su objetivo principal es abstraer la complejidad del renderizado gráfico en Win
 A través de esta librería, los estudiantes ejercitan activamente:
 
 * **Abstracción:** Modelado de entidades del mundo de los videojuegos (personajes, obstáculos, coleccionables) ocultando los detalles de implementación gráfica.
-* **Encapsulamiento:** Ocultamiento del estado interno y control de comportamientos mediante interfaces limpias (`SetPos`, `CambiarEstado`, `LanzarHechizo`).
+* **Encapsulamiento:** Ocultamiento del estado interno y control de comportamientos mediante interfaces limpias (`SetPos`, `CambiarEstado`).
 * **Herencia:** Extensión de la clase base abstracta `GraphicsItem` y la clase `AnimatedItem` para la creación de objetos estáticos y animados.
 * **Polimorfismo:** Procesamiento y renderizado uniforme de múltiples tipos de objetos contenidos dentro de la escena (`GraphicsScene`).
 
@@ -26,17 +26,9 @@ A través de esta librería, los estudiantes ejercitan activamente:
 ```text
 libreria-grafica/
 ├── Engine2D.dll              # Binario compilado listo para usar en proyectos de estudiantes
-├── docs/
+├── doc/
 │   └── Guia_Engine2D.pdf     # Guía paso a paso de integración en Visual Studio
-└── src/
-    ├── Engine2D/             # Código fuente de la Librería de Clases (.NET 8)
-    │   ├── GraphicsItem.cs   # Clase base para todos los elementos gráficos
-    │   ├── AnimatedItem.cs   # Manejo de hojas de sprites (spritesheets)
-    │   ├── GraphicsScene.cs  # Contenedor y cámara del mundo del juego
-    │   └── GraphicsView.cs   # Control de renderizado (Visor a 60 FPS)
-    │
-    └── Demo_GUI/             # Proyecto de demostración (Windows Forms)
+└── Demo_GUI/             # Proyecto de demostración (Windows Forms)
         ├── Escenario.cs      # Inicialización del escenario y ciclo de juego
         ├── Pollito.cs        # Ejemplo de ítem estático con recurso gráfico
-        ├── Mago.cs           # Ejemplo de personaje animado (hoja de sprites 8x8)
         └── Bloque.cs         # Obstáculos y colisiones AABB
