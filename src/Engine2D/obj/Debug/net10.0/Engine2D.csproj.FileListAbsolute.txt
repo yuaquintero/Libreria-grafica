@@ -1,0 +1,13 @@
+C:\Users\usuario\source\repos\Engine2D\bin\Debug\net10.0\Engine2D.deps.json
+C:\Users\usuario\source\repos\Engine2D\bin\Debug\net10.0\Engine2D.dll
+C:\Users\usuario\source\repos\Engine2D\bin\Debug\net10.0\Engine2D.pdb
+C:\Users\usuario\source\repos\Engine2D\obj\Debug\net10.0\Engine2D.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\Engine2D\obj\Debug\net10.0\Engine2D.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\Engine2D\obj\Debug\net10.0\Engine2D.AssemblyInfo.cs
+C:\Users\usuario\source\repos\Engine2D\obj\Debug\net10.0\Engine2D.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\Engine2D\obj\Debug\net10.0\Engine2D.dll
+C:\Users\usuario\source\repos\Engine2D\obj\Debug\net10.0\refint\Engine2D.dll
+C:\Users\usuario\source\repos\Engine2D\obj\Debug\net10.0\Engine2D.pdb
+C:\Users\usuario\source\repos\Engine2D\obj\Debug\net10.0\ref\Engine2D.dll
+C:\Users\usuario\source\repos\Engine2D\obj\Debug\net10.0\Engine2D.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\Engine2D\obj\Debug\net10.0\Engine2D.csproj.Up2Date

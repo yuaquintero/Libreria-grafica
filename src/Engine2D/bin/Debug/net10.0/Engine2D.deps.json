@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Engine2D/1.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "10.0.11"
+        },
+        "runtime": {
+          "Engine2D.dll": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/10.0.11": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1126.37416"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1126.37416"
+          }
+        }
+      },
+      "System.Drawing.Common/10.0.11": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "10.0.11"
+        },
+        "runtime": {
+          "lib/net10.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1126.37416"
+          },
+          "lib/net10.0/System.Private.Windows.Core.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1126.37416"
+          },
+          "lib/net10.0/System.Private.Windows.GdiPlus.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1126.37416"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Engine2D/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Win32.SystemEvents/10.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WXGazuzGf3eX24z1qgiGwP2df3t2T28QeZvMjlRqdjNuewQyLfbOb6rEXmk6Xs++gOQClmw90pkjPd9j/hNWDw==",
+      "path": "microsoft.win32.systemevents/10.0.11",
+      "hashPath": "microsoft.win32.systemevents.10.0.11.nupkg.sha512"
+    },
+    "System.Drawing.Common/10.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Schxw0FzXMAwa+If/oVxqjrmmiyUbw9KUAeqJOPnjsdAzkmUZXSZWNRLHZye2boFYlbMRkeBY6dba5hs8Mu4OQ==",
+      "path": "system.drawing.common/10.0.11",
+      "hashPath": "system.drawing.common.10.0.11.nupkg.sha512"
+    }
+  }
+}
