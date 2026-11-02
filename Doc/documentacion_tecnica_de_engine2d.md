@@ -59,7 +59,8 @@ Representa cualquier entidad u objeto dentro de la escena. Define el contrato ba
 | `Rotacion` | `float` | Ángulo de rotación del objeto en grados ($0^\circ - 360^\circ$). |
 | `Visible` | `bool` | Indica si el objeto se dibuja en la escena (`true` por defecto). |
 | `ZValue` | `int` | Orden de dibujo o capa (valores altos se dibujan sobre valores bajos). |
-| `ColorRespaldo` | `Color` | Color de relleno cuando no hay una imagen asignada. |
+| `ColorItem` | `Color` | Color de relleno cuando no hay una imagen asignada. |
+| `Forma` | `ItemShape` | Define la forma de la figura (`Rectangle`, `Circle`) por defecto es rectagular |
 
 #### 🔹 Métodos Principales
 
