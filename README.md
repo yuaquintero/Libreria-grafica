@@ -28,7 +28,9 @@ libreria-grafica/
 ├── Engine2D.dll                                 # Binario compilado listo para usar en proyectos de estudiantes
 ├── doc/
 │    ├── Guia_Engine2D.pdf                       # Guía paso a paso de integración en Visual Studio
-│    └──documentacion_tecnica_de_engine2d.md     # Descripcion de las clases que componen la libreria y sus principales métodos
+│    └──documentacion_tecnica_de_engine2d.md     # Descripción de las clases que componen la libreria y sus principales métodos
+├── src/Engine2D                                 # Código fuente de la ibrería 
+│    └── Guia_Engine2D.pdf 
 └── Demo_GUI/                                     # Proyecto de demostración (Windows Forms)
         ├── Escenario.cs                          # Inicialización del escenario y ciclo de juego
         ├── Pollito.cs                            # Ejemplo de creación de un ítem con características gráficas a partir de un recurso gráfico
