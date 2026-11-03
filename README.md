@@ -34,4 +34,15 @@ libreria-grafica/
 └── Demo_GUI/                                     # Proyecto de demostración (Windows Forms)
         ├── Escenario.cs                          # Inicialización del escenario y ciclo de juego
         ├── Pollito.cs                            # Ejemplo de creación de un ítem con características gráficas a partir de un recurso gráfico
-        └── Bloque.cs                             # Obstáculo estático con forma rectagular y color sólido. Permite simular las colisiones 
+        └── Bloque.cs                             # Obstáculo estático con forma rectagular y color sólido. Permite simular las colisiones
+```
+## 📚 Documentación y Recursos
+* Guía Completa de Integración (PDF): Documento paso a paso con capturas de pantalla para configurar el entorno desde cero.
+* Código fuente (src/Engine2D): Código fuente de la Librería de Clases (.NET 8)
+* Proyecto de Demostración (Demo_GUI): Código fuente con ejemplos de movimiento por teclado y validación de colisiones.
+* Documentación técnica de Engine2d (md): Descripcion de las clases que componen la librería y las principales propiedades y métodos que implementa.
+## 👩‍🏫 Autoría y Créditos
+- Desarrollado por: Yudy Andrea Quintero Tangarife
+- Institución: Institución Universitaria Pascual Bravo
+- Departamento: Departamento de Sistemas Digitales
+- Asignatura: Programación Orientada a Objetos
