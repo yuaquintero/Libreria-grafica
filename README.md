@@ -1,7 +1,6 @@
 # 🕹️ Engine2D - Librería Gráfica Educativa para C# (.NET 8)
 
 [![NET 8.0](https://img.shields.io/badge/.NET-8.0-purple.svg)](https://dotnet.microsoft.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Curso](https://img.shields.io/badge/Curso-POO-blue.svg)](#)
 
 **Engine2D** es un marco de trabajo (*framework*) gráfico 2D simplificado, diseñado específicamente con fines pedagógicos para la asignatura de **Programación Orientada a Objetos (POO)** en la Institución Universitaria Pascual Bravo.
@@ -28,8 +27,21 @@ libreria-grafica/
 ├── Engine2D.dll                                 # Binario compilado listo para usar en proyectos de estudiantes
 ├── doc/
 │    ├── Guia_Engine2D.pdf                       # Guía paso a paso de integración en Visual Studio
-│    └──documentacion_tecnica_de_engine2d.md     # Descripcion de las clases que componen la libreria y sus principales métodos
+│    └──documentacion_tecnica_de_engine2d.md     # Descripción de las clases que componen la libreria y sus principales métodos
+├── src/Engine2D                                 # Código fuente de la ibrería 
+│    └── Guia_Engine2D.pdf 
 └── Demo_GUI/                                     # Proyecto de demostración (Windows Forms)
         ├── Escenario.cs                          # Inicialización del escenario y ciclo de juego
         ├── Pollito.cs                            # Ejemplo de creación de un ítem con características gráficas a partir de un recurso gráfico
-        └── Bloque.cs                             # Obstáculo estático con forma rectagular y color sólido. Permite simular las colisiones 
+        └── Bloque.cs                             # Obstáculo estático con forma rectagular y color sólido. Permite simular las colisiones
+```
+## 📚 Documentación y Recursos
+* Guía Completa de Integración (PDF): Documento paso a paso con capturas de pantalla para configurar el entorno desde cero.
+* Código fuente (src/Engine2D): Código fuente de la Librería de Clases (.NET 8)
+* Proyecto de Demostración (Demo_GUI): Código fuente con ejemplos de movimiento por teclado y validación de colisiones.
+* Documentación técnica de Engine2d (md): Descripcion de las clases que componen la librería y las principales propiedades y métodos que implementa.
+## 👩‍🏫 Autoría y Créditos
+- Desarrollado por: Yudy Andrea Quintero Tangarife
+- Institución: Institución Universitaria Pascual Bravo
+- Departamento: Departamento de Sistemas Digitales
+- Asignatura: Programación Orientada a Objetos
