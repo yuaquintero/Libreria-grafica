@@ -1,7 +1,6 @@
 # 🕹️ Engine2D - Librería Gráfica Educativa para C# (.NET 8)
 
 [![NET 8.0](https://img.shields.io/badge/.NET-8.0-purple.svg)](https://dotnet.microsoft.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Curso](https://img.shields.io/badge/Curso-POO-blue.svg)](#)
 
 **Engine2D** es un marco de trabajo (*framework*) gráfico 2D simplificado, diseñado específicamente con fines pedagógicos para la asignatura de **Programación Orientada a Objetos (POO)** en la Institución Universitaria Pascual Bravo.
